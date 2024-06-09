@@ -1,12 +1,22 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+import static utilities.BrowserSetup.getBrowser;
 
 public class BasePage {
 
-    public WebElement getElement(By locator){
-        return browser.findElement(locator);
+   public WebElement getElement(By locator){
+       WebDriverWait wait = new WebDriverWait(getBrowser(), Duration.ofSeconds(30));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
     public void writeOnElement(By locator, String text ){
@@ -15,7 +25,12 @@ public class BasePage {
     }
 
     public Boolean displayStatus(By locator){
-        return getElement(locator).isDisplayed();
+       try {
+          return getElement(locator).isDisplayed();
+       }catch (TimeoutException e){
+           return false;
+       }
+
     }
 
     public void clickOnElement(By locator){

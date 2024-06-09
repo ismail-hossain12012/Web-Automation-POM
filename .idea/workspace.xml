@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc2ee496-ed4d-4649-99e6-0fc7e95e3bd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" afterDir="false" />
+    <list default="true" id="cc2ee496-ed4d-4649-99e6-0fc7e95e3bd2" name="Changes" comment="Automatom POM1">
+      <change afterPath="$PROJECT_DIR$/allure-results/0441e00e-1217-4e08-9d09-36f50ed0e631-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4572baf7-aca1-41be-8012-30f173977625-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6051bf53-3b39-43be-81b6-e5d9febc1f90-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/88b07c1b-a5a9-49f1-822e-d547b65dea05-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9bd9d76a-2f8a-40c8-80c4-48e382b2a088-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a62bd3be-820c-47fc-a5d5-6d1ca84d84bb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/be371c47-8dd9-4a2a-aca0-8fa9bee0b4e5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c084554e-c64b-4ea5-928e-a9e95d9985e0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c1308fc2-aae8-4664-8acd-5b2bc2540403-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c1cfd008-6089-47bf-b852-1f5ceceab028-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0d0c02b-dbc2-43dd-b976-36f75655c2c7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9599c4b-7ba8-47ef-9b5c-11faf1dd92a9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2h33kqIlQkFkigK8r03YHbVr0KM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,20 +49,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestLogin.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hi/IdeaProjects/WenAutomationB23&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestLogin">
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationPOMBatch23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationPOMBatch23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLogin" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.TestLogin.testLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,9 +119,47 @@
       <option name="presentableId" value="Default" />
       <updated>1716809081499</updated>
     </task>
+    <task id="LOCAL-00001" summary="POM WebAutomation Ismail Shanto">
+      <option name="closed" value="true" />
+      <created>1716881736841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716881736841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="POM WebAutomation Ismail Shanto" />
+    <MESSAGE value="Automatom POM1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Automatom POM1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/testcases/TestLogin.java</url>
+          <line>15</line>
+          <properties class="testcases.TestLogin" method="testLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
